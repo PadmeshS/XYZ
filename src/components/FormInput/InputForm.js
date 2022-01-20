@@ -66,12 +66,12 @@ const InputForm = (props) => {
           fullName.trim().length > 0 &&
           displayName.trim().length === 0
         ) {
-          setIsFNValid(false);
+          setIsDNValid(false);
         } else if (
           fullName.trim().length === 0 &&
           displayName.trim().length > 0
         ) {
-          setIsDNValid(false);
+          setIsFNValid(false);
         }
         else if (
           fullName.trim().length === 0 &&
