@@ -1,0 +1,26 @@
+#app {
+  width: 26rem;
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
+.progressBarSection{
+  width: 70%;
+  margin-left: 13%;
+}
+
+.indexedStep{
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 0.5rem 0.6rem;
+  width: 1.9rem;
+  z-index: 10;
+  font-size: 0.8rem;
+  color: gray;
+  background-color: white;
+}
+.indexedStep.accomplished{
+  background-color: #644ce4;
+  border-color: #644ce4;
+  color: white;
+}

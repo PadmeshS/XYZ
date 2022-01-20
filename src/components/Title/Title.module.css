@@ -1,0 +1,14 @@
+.titleSection{
+    text-align: center;
+    height: 5rem;
+    margin-top: 5rem;
+}
+.text{
+    font-weight: 700;
+    margin-bottom: 0em;
+    font-size: 1.4rem;
+}
+.subText{
+    color: gray;
+    font-size: 0.9rem;
+}

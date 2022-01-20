@@ -1,0 +1,59 @@
+.form-controls{
+    background-color: white;
+    border-radius: 12px;
+    padding: 2em;
+    font-size: 0.8rem;
+}
+.form-control__input label{
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+.form-control__input input{
+    display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0.35rem;
+  margin: 1rem 0;
+}
+.form-control__input.invalid input {
+  border-color: red;
+  background-color: #ffefef;
+}
+
+.form-control__input input:focus{
+    outline: none;
+
+  border-color: #644ce4;
+}
+.form-control__fixed_input input:focus{
+    outline: none;
+
+  border-color: #644ce4;
+}
+
+.form-control__fixed_input div{
+  display: inline-block;
+width: 35%;
+font: inherit;
+line-height: 1.5rem;
+padding: 0.35rem;
+margin: 1rem 0;
+background-color: #eee;
+border: 1px solid #ccc;
+border-right: none;
+color: gray;
+border-radius: 5px 0px 0px 5px;
+}
+.form-control__fixed_input input{
+  display: inline-block;
+width: 65%;
+font: inherit;
+line-height: 1.5rem;
+padding: 0.35rem;
+margin: 1rem 0;
+border: 1px solid #ccc;
+border-radius: 0px 5px 5px 0px;
+}
